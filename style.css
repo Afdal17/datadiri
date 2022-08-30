@@ -1,0 +1,26 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #115538;
+}
+.container{
+    position: center;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px; /*membuat kotak kontainer melengkung.*/
+    padding: 40px;
+    margin: 0 0px;
+    background-color: #44695BFF;
+    box-shadow: 90%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
